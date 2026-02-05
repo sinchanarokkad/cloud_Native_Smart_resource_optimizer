@@ -60,7 +60,8 @@ A cloud-native intelligent system that continuously monitors cloud resource usag
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard view](pic_q.png)
+![Dashboard view]()<img width="1755" height="735" alt="pic_q" src="https://github.com/user-attachments/assets/58886582-da58-4909-ab38-502b9d18c043" />
+
 
 ### Optimization Recommendations
 ![metrics](pic_2.png)
