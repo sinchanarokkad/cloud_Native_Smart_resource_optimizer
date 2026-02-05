@@ -57,3 +57,16 @@ A cloud-native intelligent system that continuously monitors cloud resource usag
 
 ### Alert Service
 - `POST /alerts/send`: Send an alert.
+## Screenshots
+
+### Dashboard Overview
+![Dashboard view](pic_q.png)
+
+### Optimization Recommendations
+![metrics](pic_2.png)
+
+### Cost Simulation
+![Cost Simulation](pic_4.png)
+
+### Alerts & Notifications
+![Alerts](pic_5.png)
