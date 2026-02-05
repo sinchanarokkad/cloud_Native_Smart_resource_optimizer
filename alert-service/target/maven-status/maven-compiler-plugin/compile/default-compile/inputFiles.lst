@@ -1,0 +1,8 @@
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\AlertApplication.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\email\EmailService.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\dto\ApiResponse.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\model\AlertEvent.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\repository\AlertEventRepository.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\config\SecurityConfig.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\controller\AlertController.java
+C:\Users\sinch\Documents\trae_projects\cloud_Native_Smart_resource_optimizer\alert-service\src\main\java\com\optimizer\alert\notification\NotificationService.java

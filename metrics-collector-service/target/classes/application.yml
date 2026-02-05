@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongodb:27017/cloud_optimizer
+  application:
+    name: metrics-collector-service
+
+server:
+  port: 8081

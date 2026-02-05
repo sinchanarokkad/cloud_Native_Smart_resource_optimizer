@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+pymongo
+pymysql
+sqlalchemy
+schedule
+cryptography
+requests

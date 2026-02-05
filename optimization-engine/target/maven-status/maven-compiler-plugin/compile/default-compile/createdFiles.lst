@@ -1,0 +1,6 @@
+com\optimizer\engine\dto\ApiResponse.class
+com\optimizer\engine\repository\RecommendationRepository.class
+com\optimizer\engine\controller\OptimizationController.class
+com\optimizer\engine\OptimizationEngineApplication.class
+com\optimizer\engine\service\OptimizationService.class
+com\optimizer\engine\model\Recommendation.class

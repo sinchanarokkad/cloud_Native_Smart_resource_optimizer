@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql:3306/cloud_optimizer?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: ${SPRING_DATASOURCE_PASSWORD:26102005}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: cost-simulation-service
+
+server:
+  port: 8083

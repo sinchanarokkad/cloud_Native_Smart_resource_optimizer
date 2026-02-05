@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Optimizer Dashboard</title>
+    <style>
+      :root {
+        --primary: #2563eb;
+        --secondary: #7c3aed;
+        --accent: #f59e0b;
+        --success: #16a34a;
+        --danger: #ef4444;
+        --warn: #f59e0b;
+        --bg1: #f8fafc;
+        --bg2: #e0f2fe;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --border: #e2e8f0;
+        --shadow: 0 12px 30px rgba(2, 8, 23, 0.12);
+      }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        background: radial-gradient(1200px 800px at 10% -10%, #fef3c7 0%, transparent 40%),
+                    radial-gradient(1200px 800px at 110% 10%, #e9d5ff 0%, transparent 40%),
+                    linear-gradient(135deg, var(--bg1) 0%, var(--bg2) 100%);
+        background-attachment: fixed;
+        min-height: 100vh;
+        color: var(--text);
+        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      }
+      .container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+      .header { display: flex; align-items: center; justify-content: space-between; }
+      .title { font-size: 26px; font-weight: 900; background: linear-gradient(90deg, var(--primary), var(--secondary)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+      .sub { color: var(--muted); }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px; box-shadow: var(--shadow); }
+      .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+      .col-4 { grid-column: span 4; }
+      .col-6 { grid-column: span 6; }
+      .col-12 { grid-column: span 12; }
+      .row { display: flex; gap: 12px; flex-wrap: wrap; }
+      label { display: block; font-weight: 700; margin-bottom: 6px; color: #0f172a; }
+      input, select, textarea {
+        background: #ffffff;
+        border: 1px solid var(--border);
+        color: var(--text);
+        border-radius: 12px;
+        padding: 10px 12px;
+        width: 260px;
+        box-shadow: inset 0 1px 0 rgba(2, 8, 23, 0.02);
+      }
+      textarea { min-height: 80px; width: 100%; }
+      .btn {
+        border: 1px solid var(--border);
+        background: #ffffff;
+        color: var(--text);
+        padding: 10px 16px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: transform 0.05s ease;
+      }
+      .btn:active { transform: translateY(1px); }
+      .btnPrimary {
+        background: linear-gradient(90deg, var(--primary), var(--secondary));
+        border: none;
+        color: #ffffff;
+        font-weight: 800;
+        box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35);
+      }
+      .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+      .tabs { display: flex; align-items: center; gap: 8px; }
+      .tab {
+        background: #ffffff;
+        border: 1px solid var(--border);
+        color: var(--text);
+        padding: 10px 16px;
+        border-radius: 999px;
+      }
+      .tabActive {
+        background: linear-gradient(90deg, rgba(37,99,235,.12), rgba(124,58,237,.12));
+        border-color: rgba(37,99,235,.35);
+      }
+      .pill { display: flex; gap: 8px; align-items: center; border: 1px solid var(--border); padding: 8px 12px; border-radius: 999px; background: #ffffff; }
+      .pill.ok { border-color: var(--success); color: var(--success); }
+      .pill.warn { border-color: var(--warn); color: var(--warn); }
+      .pill.bad { border-color: var(--danger); color: var(--danger); }
+      .muted { color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
