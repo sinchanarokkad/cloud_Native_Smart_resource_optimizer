@@ -60,14 +60,16 @@ A cloud-native intelligent system that continuously monitors cloud resource usag
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard view]()<img width="1755" height="735" alt="pic_q" src="https://github.com/user-attachments/assets/58886582-da58-4909-ab38-502b9d18c043" />
+![Dashboard view]<img width="1755" height="735" alt="pic_q" src="https://github.com/user-attachments/assets/58886582-da58-4909-ab38-502b9d18c043" />
 
 
 ### Optimization Recommendations
-![metrics](pic_2.png)
+![metrics]<img width="1787" height="808" alt="pic_2" src="https://github.com/user-attachments/assets/803dd8b3-9562-4aca-a397-84aaaa47f2c8" />
+
 
 ### Cost Simulation
-![Cost Simulation](pic_4.png)
+![Cost Simulation]<img width="1744" height="791" alt="pic_4" src="https://github.com/user-attachments/assets/4e87387b-2104-4a6e-ac08-e2438cfbd4a2" />
+
 
 ### Alerts & Notifications
-![Alerts](pic_5.png)
+![Alerts]<img width="1726" height="695" alt="pic_5" src="https://github.com/user-attachments/assets/c02d9938-7612-494a-9f48-fd00d96a8562" />
